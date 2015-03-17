@@ -1,0 +1,16 @@
+body {
+    background-color: gray;
+    background:
+        url("../images/background1.jpg") repeat-y,
+        url("../images/background1.jpg") repeat-y top right,
+        url("../images/background1.jpg") repeat-x,
+        url("../images/background2.jpg") repeat;
+    background-size: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-size: 75px;
+    }
+}
